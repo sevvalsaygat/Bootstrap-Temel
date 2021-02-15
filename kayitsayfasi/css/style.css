@@ -1,0 +1,167 @@
+body {
+	background-color: #fc4d2a;
+	font-family: 'Montserrat', sans-serif;
+}
+
+button {
+	font-family: 'Montserrat', sans-serif;
+}
+
+input {
+	font-family: 'Quicksand', sans-serif;
+	text-indent: 10px;
+	color: black;
+}
+
+select {
+	font-family: 'Quicksand', sans-serif;
+	color: black;
+	text-indent: 10px;
+}
+
+textarea {
+	font-family: 'Quicksand', sans-serif;
+	color: black;
+	text-indent: 10px;
+
+}
+
+::placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+.solok {
+	float: left;
+	background-color: white;
+	height: 50px;
+	width: 200px;
+	display:inline;
+	margin-top: 40px;
+	margin-left: 65px;
+	border-radius: 8px;
+	cursor: hand;
+	color: black;
+
+}
+
+.sagok {
+	float: right;
+	background-color: white;
+	height: 50px;
+	width: 200px;
+	display:inline;
+	margin-top: 40px;
+	margin-right: 65px;
+	border-radius: 8px;
+	cursor: hand;
+	color: black;
+}
+
+.paragrafsol {
+	float: right;
+	margin-right: 15px;
+}
+
+.paragrafsag {
+	float: left;
+	margin-left: 15px;
+}
+
+.sagok-fotograf {
+	margin-top: 13px;
+	float: right;
+	margin-right: 10px;
+	height: 23px;
+	width: auto;
+}
+
+.solok-fotograf {
+	margin-top: 13px;
+	float: left;
+	margin-left: 10px;
+	height: 23px;
+	width: auto;
+    transform: rotate(-180deg);
+}
+
+.atagi {
+	cursor: hand;
+}
+
+.sagok:hover {
+  background-color: black;
+  color: white;
+}
+
+.solok:hover {
+  background-color: black;
+  color: white;
+}
+
+.container {
+	margin-top: 250px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 65px;
+}
+
+.input {
+	height: 46px;
+	width: 470px;
+	border-radius: 8px;
+	border: none;
+	margin-bottom: 30px;
+}
+
+.textarea {
+	width: 470px;
+	border-radius: 8px;
+	margin-bottom: 30px;
+}
+
+#file-input {
+	display: none;
+}
+
+.upload-button {
+	height: 46px;
+	width: 470px;
+	border-radius: 8px;
+	border: none;
+}
+
+.upload-info-p {
+	margin-right: 300px;
+}
+
+.checkbox-info-p {
+	display: inline;
+	width: 100px;
+	color: white;
+	font-size: 13px;
+}
+
+.chechkbox-class {
+	display: inline;
+}
+
+.submit-button {
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin-top: 40px;
+	height: 46px;
+	width: 240px;
+	border-radius: 8px;
+	border: none;
+	margin-bottom: 200px;
+}
+
+.submit-button:hover {
+	background-color: grey;
+	cursor:pointer;
+}
+
